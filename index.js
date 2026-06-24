@@ -35,7 +35,7 @@ app.post('/api/generate-path', async (req, res) => {
     }
 
     const model = ai.getGenerativeModel({ 
-      model: 'gemini-2.5-flash',
+      model: 'gemini-2.5-flash-lite',
       generationConfig: { responseMimeType: "application/json" } 
     });
 
